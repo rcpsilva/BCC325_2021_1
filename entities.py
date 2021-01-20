@@ -6,3 +6,14 @@ class Agent():
     def act(self):
         raise NotImplementedError('act')
 
+class Environment:
+
+    def initial_percepts(self):
+        raise NotImplementedError('initial percepts')
+
+    def signal(self,action):
+        raise NotImplementedError('signal')
+
+
+        
+
